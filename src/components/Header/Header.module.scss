@@ -1,0 +1,19 @@
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #222222;
+    position: sticky;
+top: 0;
+    .HeaderNavbar{
+        display: flex;
+        gap: 71px;
+        color: white;
+        a{
+            color: white;
+          
+            
+        }
+    }
+}

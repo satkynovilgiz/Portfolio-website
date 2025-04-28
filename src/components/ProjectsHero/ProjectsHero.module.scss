@@ -1,0 +1,38 @@
+.ProjectsHero{
+    h1{
+        color: #FF8660;
+        font-family: sans-serif;
+        font-size: 40px;
+        text-align: center;
+    }
+    margin-top: 100px;
+    .ProjectsHeroVisit{
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        gap: 80px;
+      
+        .project{
+            max-width: 390px;
+            height: 330px;
+            background: #2a2a2a;
+            border-radius: 20px;
+            .projectText{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 120px;
+                h6{
+                    color: #C5C5C5;
+                    font-family: sans-serif;
+    
+                }
+                h2{
+    color: white;
+    font-family: sans-serif;
+    margin-top: -15px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+.HeroAboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+  
+    .HeroImg {
+      img {
+        max-width: 251px;
+      }
+    }
+  
+    .HeroText {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+  
+      h4 {
+        color: white;
+        font-size: 55px;
+        font-family: sans-serif;
+        max-width: 670px;
+        margin-top: 0px;
+  
+        span {
+          background: linear-gradient(to right, #ff8660, #9a33ff);
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+        }
+      }
+  
+      p {
+        color: #c5c5c5;
+        max-width: 679px;
+        font-family: sans-serif;
+        font-weight: 100;
+        margin-top: -25px;
+      }
+    }
+  
+    .HeroBtn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 32px;
+      margin-top: 30px;
+  
+      .BtnFirst {
+        width: 195px;
+        height: 64px;
+        color: black;
+        border-radius: 50px;
+        border: none;
+        font-size: 20px;
+        font-weight: 600;
+  
+        &:hover {
+          background: none;
+          color: rgb(255, 255, 255);
+          border: solid 2px rgb(255, 255, 255);
+        }
+      }
+  
+      .BtnSecond {
+        width: 195px;
+        height: 64px;
+        background: none;
+        color: rgb(255, 255, 255);
+        border-radius: 50px;
+        border: solid 2px rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: 600;
+        &:hover {
+           background:white; 
+           color: black;
+        }
+      }
+
+    }
+  }
+  
